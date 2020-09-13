@@ -1,0 +1,5 @@
+Anaconda3 3.5.2
+Traceback (most recent call last):
+  File "hyperswipe01.py", line 7, in <module>
+    import flag_reader
+ModuleNotFoundError: No module named 'flag_reader'

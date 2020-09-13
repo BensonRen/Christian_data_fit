@@ -22,7 +22,7 @@ TRAIN_STEP = 10000
 LEARN_RATE = 1e-1
 # DECAY_STEP = 25000 # This is for step decay, however we are using dynamic decaying
 LR_DECAY_RATE = 0.5
-STOP_THRESHOLD = 0.0001
+STOP_THRESHOLD = 0.001
 USE_CLIP = False
 GRAD_CLIP = 1
 USE_WARM_RESTART = False
@@ -50,6 +50,7 @@ TEST_RATIO = 0.001
 # Running specific
 USE_CPU_ONLY = False
 MODEL_NAME = "Gradient_Ascend"
+SPECTRA_SAVE_DIR = '/work/sr365/Christian_data_fit/num_lor' + str(NUM_LOR)
 EVAL_MODEL = None
 # PRE_TRAIN_MODEL = "Gradient_Ascend"
 NUM_PLOT_COMPARE = 5

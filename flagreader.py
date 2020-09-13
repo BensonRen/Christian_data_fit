@@ -83,6 +83,7 @@ def read_flag():
     parser.add_argument('--num-plot-compare', type=int, default=NUM_PLOT_COMPARE,
                         help='#Plots to store in tensorboard during training for spectra compare')
     parser.add_argument('--model-name', default=MODEL_NAME, type=str, help='name of the model')
+    parser.add_argument('--spectra-save-dir', default=SPECTRA_SAVE_DIR, type=str, help='The place to save the spectra')
     # parser.add_argument('--lor-ratio', default=LOR_RATIO, type=float,
     #                     help='The ratio of the facilitated lorentzian ')
     # parser.add_argument('--lor-weight', default=LOR_WEIGHT, type=float,

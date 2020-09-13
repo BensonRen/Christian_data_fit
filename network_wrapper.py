@@ -392,7 +392,7 @@ class Network(object):
                     train_flag = False
 
             # After the while loop, we got our best fit for the current spectra now
-            self.plot_spectra_compare(spectra, j)
+            self.plot_spectra_compare(spectra, j, save_dir=self.flags.spectra_save_dir)
 
         self.log.close()
 

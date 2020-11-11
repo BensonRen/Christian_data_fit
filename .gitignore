@@ -1,4 +1,7 @@
 data
+*.err
+*.nohup
+*.out
 dataIn
 models
 .idea*
